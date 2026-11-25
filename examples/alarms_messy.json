@@ -1,0 +1,12 @@
+{
+  "alarms": [
+    {"id": "alarm-1", "name": "prod-cpu-web-1", "severity": "CRITICAL",
+     "enabled": true, "destinations": ["topic-ops"], "covers": ["inst-1"]},
+    {"id": "alarm-2", "name": "prod-mem-db-1", "severity": "CRITICAL",
+     "enabled": false, "destinations": ["topic-ops"], "covers": ["db-1"]},
+    {"id": "alarm-3", "name": "bucket-size-alerts", "severity": "WARNING",
+     "enabled": true, "destinations": [], "covers": ["bucket-1"]},
+    {"id": "alarm-4", "name": "old-drill-alarm", "severity": "INFO",
+     "enabled": false, "destinations": ["topic-ops"], "covers": []}
+  ]
+}
