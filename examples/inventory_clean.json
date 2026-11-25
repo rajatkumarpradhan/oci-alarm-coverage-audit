@@ -1,0 +1,14 @@
+{
+  "resources": [
+    {"id": "inst-1", "type": "compute-instance", "name": "web-1",
+     "environment": "prod", "state": "ACTIVE"},
+    {"id": "inst-2", "type": "compute-instance", "name": "api-2",
+     "environment": "prod", "state": "ACTIVE"},
+    {"id": "db-1", "type": "autonomous-db", "name": "orders-adb",
+     "environment": "prod", "state": "ACTIVE"},
+    {"id": "bucket-1", "type": "bucket", "name": "uploads",
+     "environment": "prod", "state": "ACTIVE"},
+    {"id": "inst-3", "type": "compute-instance", "name": "sandbox-1",
+     "environment": "dev", "state": "ACTIVE"}
+  ]
+}
