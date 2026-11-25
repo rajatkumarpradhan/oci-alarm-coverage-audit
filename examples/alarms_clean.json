@@ -1,0 +1,14 @@
+{
+  "alarms": [
+    {"id": "alarm-1", "name": "prod-cpu-web-1", "severity": "CRITICAL",
+     "enabled": true, "destinations": ["topic-ops"], "covers": ["inst-1"]},
+    {"id": "alarm-2", "name": "prod-cpu-api-2", "severity": "CRITICAL",
+     "enabled": true, "destinations": ["topic-ops"], "covers": ["inst-2"]},
+    {"id": "alarm-3", "name": "prod-db-orders", "severity": "CRITICAL",
+     "enabled": true, "destinations": ["topic-ops"], "covers": ["db-1"]},
+    {"id": "alarm-4", "name": "bucket-uploads-size", "severity": "WARNING",
+     "enabled": true, "destinations": ["topic-ops"], "covers": ["bucket-1"]},
+    {"id": "alarm-5", "name": "dev-sandbox-cpu", "severity": "INFO",
+     "enabled": true, "destinations": ["topic-dev"], "covers": ["inst-3"]}
+  ]
+}
